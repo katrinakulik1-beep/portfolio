@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Über mich – Katrina Kulik</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .lang-switch {
+      text-align: right;
+      margin: 12px 0 0 0;
+    }
+    .lang-btn {
+      background: #ffe484;
+      color: #142850;
+      border: none;
+      font-size: 0.90em;
+      font-family: inherit;
+      font-weight: bold;
+      border-radius: 7px;
+      padding: 4px 11px;
+      margin-left: 6px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .lang-btn.active, .lang-btn:hover {
+      background: #142850;
+      color: #ffe484;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Katrina Kulik</h1>
+    <h2>Quality Assurance Associate / Quality Performance Specialist</h2>
+    <div class="lang-switch">
+      <button class="lang-btn active" id="de-btn" onclick="switchLang('de')">Deutsch</button>
+      <button class="lang-btn" id="en-btn" onclick="switchLang('en')">English</button>
+    </div>
+  </header>
+  <main>
+    <!-- Deutsch -->
+    <section id="about-de">
+      <h2>Über mich</h2>
+      <p>Erfahrene Biologin mit über fünf Jahren Berufserfahrung in GMP-regulierten pharmazeutischen Umgebungen. Nachgewiesene Fachkenntnisse in Batch Record Review, Kennzeichnung, Qualitätskontrolle und GMP-Compliance.</p>
+      <p>Zusätzliche Qualifikationen in Qualitätsmanagement (TÜV), Qualitätsmanagement für Medizinprodukte, Projektmanagement (GPM) und agiles Projektmanagement (Scrum).</p>
+      <p>Versiert im Umgang mit SAP, Microsoft Office sowie digitalen Kollaborationstools wie Trello und Miro.</p>
+      <p>Engagiert, detailorientiert und qualitätsbewusst mit starkem Fokus auf Prozessoptimierung und regulatorische Anforderungen.</p>
+    </section>
+    <!-- Englisch -->
+    <section id="about-en" style="display:none;">
+      <h2>About Me</h2>
+      <p>Experienced biologist with over five years of professional experience in GMP-regulated pharmaceutical environments. Proven expertise in batch record review, labeling, quality control, and GMP compliance.</p>
+      <p>Additional qualifications in Quality Management (TÜV), Quality Management for Medical Devices, Project Management (GPM), and Agile Project Management (Scrum).</p>
+      <p>Proficient in SAP, Microsoft Office, and digital collaboration tools such as Trello and Miro.</p>
+      <p>Committed, detail-oriented, and quality-driven with a strong focus on process improvement and regulatory compliance.</p>
+    </section>
+    <section class="contact-box">
+      <h3>Kontakt / Contact</h3>
+      <p><strong>E-Mail:</strong> <a href="mailto:katrinakulik1@gmail.com">katrinakulik1@gmail.com</a></p>
+      <p>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/katrina-kulik-67b88911a/" target="_blank">Profil / View Profile</a>
+      </p>
+      <p>
+        <strong>XING:</strong>
+        <a href="https://www.xing.com/profile/Katrina_Kulik/web_profiles?nwt_nav=profile_icon&sc_o=navigation_profile_icon" target="_blank">Profil ansehen / View Profile</a>
+      </p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Katrina Kulik
+  </footer>
+  <script>
+    function switchLang(lang) {
+      document.getElementById('about-de').style.display = (lang === 'de') ? 'block' : 'none';
+      document.getElementById('about-en').style.display = (lang === 'en') ? 'block' : 'none';
+      document.getElementById('de-btn').classList.toggle('active', lang === 'de');
+      document.getElementById('en-btn').classList.toggle('active', lang === 'en');
+    }
+  </script>
+</body>
+</html>
