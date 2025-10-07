@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Katrina Kulik – Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Katrina Kulik</h1>
+    <h2>Quality Assurance Associate / Quality Performance Specialist</h2>
+  </header>
+
+  <main>
+    <nav class="index-nav">
+      <ul>
+        <li><a href="ueber-mich.html">Über mich & Kontakt</a></li>
+        <li><a href="lebenslauf.html">Beruflicher Werdegang</a></li>
+        <li><a href="kompetenzen.html">Kompetenzen & Erfahrungen</a></li>
+        <li><a href="ausbildung.html">Ausbildung</a></li>
+        <li><a href="zertifikate.html">Zertifikate</a></li>
+        <li><a href="sprachen.html">Sprachen & IT-Kenntnisse</a></li>
+      </ul>
+    </nav>
+    <section class="contact-box">
+      <h3>Kontakt</h3>
+      <p><strong>E-Mail:</strong> <a href="mailto:katrinakulik1@gmail.com">katrinakulik1@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/katrina-kulik-67b88911a/" target="_blank">Profil ansehen</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Katrina Kulik
+  </footer>
+</body>
+</html>
