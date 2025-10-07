@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Katrina Kulik – Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/profilbild.jpg" alt="Profilbild" class="profilbild">
+        <h1>Katrina Kulik</h1>
+        <p>Mitarbeiterin in der Qualitätssicherung / Quality Performance Spezialist</p>
+        <nav>
+            <a href="#about">Über mich</a>
+            <a href="#erfahrung">Erfahrung</a>
+            <a href="#skills">Fähigkeiten</a>
+            <a href="#zeugnisse">Zeugnisse</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Erfahrene Mitarbeiterin in der Qualitätssicherung ... (dein Kurzprofil)</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dein-link" target="_blank">LinkedIn</a>
+                <a href="https://www.xing.com/profile/dein-link" target="_blank">Xing</a>
+            </div>
+        </section>
+        <section id="erfahrung">
+            <h2>Berufserfahrung</h2>
+            <ul>
+                <li>
+                    <strong>Evonik Operations GmbH, Darmstadt</strong><br>
+                    Mitarbeiterin in der Qualitätssicherung, 02/2021 – 04/2021<br>
+                    <em>Job AG Personal GmbH</em>
+                    <ul>
+                        <li>Dateneingabe, Dokumentenmanagement, Batch Record Review etc.</li>
+                    </ul>
+                </li>
+                <!-- Weitere Erfahrungen hier eintragen -->
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Fähigkeiten & Tools</h2>
+            <ul>
+                <li>MS Office, SAP, Trello, Miro, Google Anwendungen</li>
+                <li>Deutsch (C1), Englisch (B1), Russisch (C2)</li>
+            </ul>
+        </section>
+        <section id="zeugnisse">
+            <h2>Zeugnisse & Bescheinigungen</h2>
+            <p>Meine Zeugnisse sende ich Ihnen gerne auf Anfrage zu.</p>
+        </section>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Gerne sende ich Ihnen weitere Unterlagen zu.<br>
+            Kontaktieren Sie mich per E-Mail: <a href="mailto:deine.email@example.com">deine.email@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Katrina Kulik</p>
+    </footer>
+</body>
+</html>
